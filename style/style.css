@@ -14,7 +14,7 @@ nav{
 }
 nav ul{
     display: flex;
-    margin-right: 40px;
+    margin-right: 32px;
 }
 nav ul li a{
     text-decoration: none;
@@ -49,13 +49,12 @@ nav ul li a:visited{
     margin: 0px;
 }
 #img-cover{
-    padding: 10px;
     transition: transform .2s;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 #img-cover:hover{
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 h1{
     margin: 0px;
@@ -83,3 +82,38 @@ h1{
     color: purple;
     border: 2px solid purple;
 }
+/* section 2 */
+.logo-sec{
+    /* margin: 0px 100px; */
+}
+.logos{
+    margin-right: -5px;
+    margin-left: 90px;
+}
+/* section 3 */
+.sec3{
+    margin: 10px 100px;
+    background-color: rgba(90, 69, 90, 0.03);
+}
+h2{
+    text-align: center;
+    margin-top: -10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+#s3-main-div{
+    display: flex;
+}
+/* star rating starts */
+.checked {
+    color: orange;
+  }
+  .fa-star-half-o{
+    color: orange;
+  }
+  /* star rating ends */
+  .img-sec3{
+    margin: 5px 90px 10px 140px;
+    padding: 10px;
+  }
+
