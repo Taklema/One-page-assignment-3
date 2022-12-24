@@ -6,6 +6,9 @@ font-family: 'Poppins', sans-serif;
 margin: 0;
 }
 /* <!-- This is hearder section --> */
+/* .sec1{
+    background-color: aqua;
+} */
 nav ul li{
     list-style: none;
 }
@@ -90,7 +93,6 @@ h1{
 /* section 3 */
 .sec3{
     margin: 10px 100px;
-    background-color: rgba(109, 100, 109, 0.074);
 }
 h2{
     text-align: center;
@@ -128,13 +130,17 @@ h2{
     text-decoration: underline;
     font-weight: 800;
 }
+.img-sec3>img{
+    border-radius: 7px;
+}
+/* section 4 */
 .sec4-main{
     display: flex;
     margin: 50px 100px;
 }
 #sec4-h2{
     text-align: left;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 .sec4-d1{
     margin-right: 250px;
@@ -153,4 +159,17 @@ h2{
     border: 2px solid purple;
     background-color: rgba(128, 0, 128, 0);
     color: purple;
+}
+/* footer section */
+footer{
+    background-color: rgb(116, 29, 116);
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+h4{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    
 }
