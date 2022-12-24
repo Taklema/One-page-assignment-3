@@ -145,6 +145,9 @@ h2{
 .sec4-d1{
     margin-right: 250px;
 }
+.sec4-d1>img{
+    border-radius: 7px;
+}
 .sec4-para{
     margin-bottom: 50px;
 }
